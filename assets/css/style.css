@@ -3,3 +3,9 @@ main { max-width: 800px; margin: 30px auto; padding: 0 20px; }
 h1 { color: #2c3e50; }
 nav a.active { font-weight: bold; color: #3498db !important; border-bottom: 2px solid #3498db; }
 form input, form textarea, form button { display: block; margin: 10px 0; padding: 10px; width: 100%; max-width: 400px; }
+.articles-list { display: grid; gap: 1rem; margin: 1rem 0; }
+.card { background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.pagination a { padding: 0.3rem 0.6rem; margin: 0 0.2rem; text-decoration: none; background: #eee; border-radius: 4px; }
+.pagination a.active { background: #0d6efd; color: white; }
+.form input, .form textarea { width: 100%; margin-bottom: 0.5rem; padding: 0.5rem; }
+.btn { display: inline-block; padding: 0.5rem 1rem; background: #0d6efd; color: white; text-decoration: none; border: none; cursor: pointer; }
