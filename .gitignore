@@ -13,3 +13,6 @@ config.local.php
 # Зависимости
 /vendor/
 composer.lock
+
+.env
+*.sql.bak
